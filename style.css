@@ -1,0 +1,72 @@
+/* :root{
+    --green:green;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0 .5em 1rem rgba(0, 0, 0.1);
+    --border:2rem solid rgba(0,0,0.1);
+    --outline:1rem solid rgba(0,0,0.1); */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+    border:none;
+    outline: none;
+    transition:all .2s linear ;
+
+}html{
+    font-size: 62.5%;
+    overflow-X: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+body{
+    background-color: #eee;
+
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #fff;
+    font-size: 18px;
+    gap: 12px;
+    margin: 10,4px;
+}
+.header .logo{
+    font-weight:bolder;
+    color:#130f40;
+    font-size:17px;
+     font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.header .navbar .a{
+    font-size:15px;
+    margin:20px;
+    color:var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+    border:2px solid black;
+    border-radius:12px;
+
+   
+
+
+    
+}
+.header .navbar a:hover{
+    color:orangered;
+    border-radius:10px;
+    background-color:orange;
+    transition:all .2s ease;
+}
+.logo h2{
+    font-style: italic;
+    
+}
